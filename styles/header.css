@@ -1,4 +1,5 @@
 header {
+    font: var(--text-md);
     padding-block: 32px;
 }
 header .container {
@@ -14,6 +15,13 @@ header .container {
     gap: 32px;
 }
 
+#profile img {
+    width: 176px;
+    height: 176px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
 #profile > div {
     max-width: 384px;
 
@@ -26,7 +34,6 @@ header .container {
 }
 
 #profile > p {
-    font: var(--text-md);
     color: var(--text-color-secondary);
 }
 
